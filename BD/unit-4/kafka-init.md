@@ -2,8 +2,13 @@
 
 Kafka keeps a track of all the topics ,and consumer groups self balancing -> Zookeeper
 
+![image](https://github.com/user-attachments/assets/046ac7d4-65fd-4691-90ab-e8494380ce19)
+
+
+
 
 We have to set a zookeeper service running on some port, so that the kafka system can interact with it
+
 
 
 ```docker run -p 2181:2181 zookeeper```
